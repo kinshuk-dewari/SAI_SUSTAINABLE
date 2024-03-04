@@ -20,7 +20,7 @@ const Cards = () => {
                     
                 </div>
 
-                <Link to="/home" 
+                <a href="/home" 
                     onClick={() => {
                         setIsMenuOpen(false);
                         // smooth scroll to top animation
@@ -33,7 +33,7 @@ const Cards = () => {
                     className='font-bold flex items-center justify-center gap-4 w-full text-xl pl-6 p-2 bg-[#5A8D51] hover:bg-[#456b3e] text-[#fbf9ef]'>                        
                     Link to website     
                     <LuExternalLink />                    
-                </Link> 
+                </a> 
             </div>
 
             <div data-scroll data-scroll-speed="0.2"  className='bg-white flex flex-col items-center space-y-2 justify-between rounded-2xl shadow-xl overflow-hidden text-[#11160b]'> 
