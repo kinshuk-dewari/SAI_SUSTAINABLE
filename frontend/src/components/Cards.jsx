@@ -38,7 +38,7 @@ const Cards = () => {
 
             <div data-scroll data-scroll-speed="0.2"  className='bg-white flex flex-col items-center space-y-2 justify-between rounded-2xl shadow-xl overflow-hidden text-[#11160b]'> 
                 <h1 className=' capitalize text-3xl pt-4 p-2 text-[#5A8D51]  font-extrabold'>
-                SAI Tribal Treaditions
+                SAI Tribal Traditions
                 </h1>
                 
                 <div className='flex flex-col items-center pb-4  space-y-4'> 
