@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 const Team = () => {
     
     const result = import.meta.env.VITE_DATABASE_URL;
-    // console.log(result);
-    // const DATABASE_URL = process.env.DATABASE_URL;
     const [advisoryCommittee, setAdvisoryCommittee] = useState([]);
     const [boardsOfDirectors, setBoardsOfDirectors] = useState([]);
     const [manager, setManager] = useState([]);
