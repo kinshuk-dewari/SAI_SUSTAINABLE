@@ -18,7 +18,7 @@ const PageFooter = () => {
                             document.documentElement.classList.remove('scroll-to-top'); 
                         }, 500);
                       }}  
-                      className='text-xl md:text-2xl flex font-bold uppercase items-center gap-2 '>
+                      className='text-xl md:text-2xl flex flex-col md:flex-row font-bold uppercase items-center gap-2 '>
                                 <img src="/logo0.png" className='h-[5rem] w-auto ' alt="" /> 
                                 <div>
                             <div className=' translate-y-3'>Sai </div>
@@ -149,7 +149,7 @@ const PageFooter = () => {
         <div className="w-full rounded-t-lg text-[#F5F5F5] bg-[#14352e] px-4 py-6 sm:flex sm:items-center sm:justify-between">
           
           <div>
-            <div>Copyright © 2022 Bridge2business</div>
+            <div>Copyright © 2024 SAI Sustainable Agro</div>
             
           </div>
           <div className='flex  items-center justify-center gap-4'>
